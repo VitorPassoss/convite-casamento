@@ -12,6 +12,8 @@ import { Modal, Spin } from 'antd';
 import coracao from '../assets/Convite_de_casamento_virtual_e_interativo_com_folhagens__5_-removebg-preview.png';
 import { useState } from 'react';
 
+import coracao2 from '../assets/Convite_de_casamento_virtual_e_interativo_com_folhagens__7_-removebg-preview.png'
+
 function Home() {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [isModalOpen2, setIsModalOpen2] = useState(false);
@@ -98,7 +100,10 @@ function Home() {
                                     <p>Lista de presentes</p>
                                 </div>
                             </div>
+                       
                         </div>
+                        <p className='alert'>Toque nos icones para interagir</p>
+
                     </div>
                 </div>
             </div>
@@ -126,7 +131,9 @@ function Home() {
                 onCancel={handleCancel} 
                 footer={[]}
             >   
-                Contribua com a Melissa e o Gustavo em seus planos futuros. Segue abaixo a chave Pix: <br />
+. <p className='title-key'><img className='coracao2' src={coracao2} alt="" />Contribua com a operação lua de mel.            <img className='coracao2' src={coracao2} alt="" /></p>      
+<br></br>
+                <strong className='label-key'>Chave Pix dos noivos:</strong>
                 <p className='key'>51984437868</p>
                 <p>Gustavo Henrique Michaelsen - Itaú</p>
             </Modal>
