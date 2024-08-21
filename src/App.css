@@ -1,0 +1,110 @@
+/* Estilo da imagem */
+.bg {
+  width: 100%;
+  height: 40vh; /* A imagem ocupa 40% da altura da tela */
+  object-fit: cover; 
+  object-position: center;
+  display: block;
+  margin: 0 auto;
+  z-index: 1; /* Certifique-se de que a imagem fique atrás do bloco */
+  position: absolute;
+  top: 0;
+}
+
+/* Estilo do bloco com gradiente e imagem de fundo */
+.gradient {
+  width: 100vw;
+  height: 60vh; /* Certifique-se de que a altura corresponde à da .gradient */
+  background-image: url('./assets/Convite de casamento virtual e interativo com folhagens.png');
+  position: absolute;
+  z-index: 2;
+  bottom: 0; /* Certifique-se de que o conteúdo fique acima da imagem */
+}
+
+
+.cube {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60vh; /* Certifique-se de que a altura corresponde à da .gradient */
+  text-align: center;
+  z-index: 3; 
+}
+
+/* Centraliza o conteúdo */
+.content {
+
+  width: 90%;
+
+}
+h1 {
+  margin: 0px;
+  font-size: 28px !important;
+  color: #007faa;
+}
+
+.title {
+  margin-top: 24px;
+  font-family: "Libre Baskerville", serif;
+font-weight: 500;
+margin-bottom: 10px;
+}
+
+.content p {
+  margin: 0px;
+  font-size: 15px; /* Ajuste o tamanho da fonte conforme necessário */
+  color: #007faa; 
+  
+}
+
+.corac {
+  width: 30px;
+  margin-bottom: 10px;
+
+}
+
+
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+}
+
+.flor {
+  width: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.date {
+  margin-top: 10px;
+  
+}
+
+.date p {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+
+* {
+  font-family: "Libre Baskerville", serif;
+
+}
+
+
+
+
+
+.actions img {
+  width: 80px;
+  margin: 20px 10px;
+  
+}
