@@ -1,14 +1,15 @@
 /* Estilo da imagem */
 .bg {
-    width: 100%;
-    height: 40vh; /* A imagem ocupa 40% da altura da tela */
+    width: 100vw;
+    height: 40vh; 
     object-fit: cover; 
     object-position: center;
     display: block;
-    margin: 0 auto;
-    z-index: 1; /* Certifique-se de que a imagem fique atrás do bloco */
+    margin: 0px;
+    z-index: 1; 
     position: absolute;
-    top: 0;
+    top: 0px;
+    left: 0px;
   }
   
   /* Estilo do bloco com gradiente e imagem de fundo */
